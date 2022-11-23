@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url();
+    background-image: no-repeat;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:500%;
+  }
+  form input, form textarea, form button{
+    padding:20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #ddd;
+  }
+   form button{
+    background-color: green;
+    cursor: pointer;
+  }
